@@ -54,14 +54,29 @@ a {
     font-weight: 500;
 }
 
+li a:hover {
+    transform: scale(1.2);
+    background-color: #a84900;
+    border-radius: 15px;
+    padding: 0px 15px;
+}
+
+footer h4:hover {
+    transform: scale(1.2);
+    background-color: #a84900;
+    border-radius: 15px;
+    margin: 0 -20px;
+    
+}
+
 .menunav {
     font-family: "Just Me Again Down Here", cursive;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .logo {
-    height: 3rem;
+    height: 3.5rem;
     width: auto;
     margin-left: 22%;
     border-radius: 50%;
