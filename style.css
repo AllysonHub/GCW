@@ -29,6 +29,7 @@ body {
     background-position: center;
     min-height: 100vh;
     background-repeat: no-repeat;
+    overflow: hidden;
 
 }
 
@@ -62,8 +63,6 @@ li a:hover {
 }
 
 footer h4:hover {
-    transform: scale(1.2);
-    background-color: #a84900;
     border-radius: 15px;
     margin: 0 -20px;
     
@@ -94,7 +93,7 @@ footer {
     text-align: center;
     padding: 0.5% 0%;
     background-color: #321600;
-    
+
 }
 
 .textos h1 {
