@@ -34,10 +34,10 @@ body {
 
 nav {
     background-color: #441D03;
-    height: 3.5rem;
+    height: 3.8rem;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* MUDA ISSO */
+    justify-content: space-between; 
     padding: 0 2rem;
 }
 
@@ -54,16 +54,32 @@ a {
     font-weight: 500;
 }
 
+li a:hover {
+    transform: scale(1.2);
+    background-color: #a84900;
+    border-radius: 15px;
+    padding: 0px 15px;
+}
+
+footer h4:hover {
+    transform: scale(1.2);
+    background-color: #a84900;
+    border-radius: 15px;
+    margin: 0 -20px;
+    
+}
+
 .menunav {
     font-family: "Just Me Again Down Here", cursive;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .logo {
-    height: 2.5rem;
+    height: 3.5rem;
     width: auto;
-    margin-left: 20%;
+    margin-left: 22%;
+    border-radius: 50%;
 }
 
 main {
